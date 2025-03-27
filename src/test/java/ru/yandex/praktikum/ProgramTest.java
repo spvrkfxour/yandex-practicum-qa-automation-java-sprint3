@@ -31,6 +31,6 @@ public class ProgramTest {
     public void checkIsAdultWhenAgeThenResult() {
         Program program = new Program();
         boolean isAdult = program.checkIsAdult(age);
-        assertEquals("Метод checkIsAdult вернул на правильное значение для определения совершеннолетия", result, isAdult);
+        assertEquals("Метод checkIsAdult() вернул не правильное значение для определения совершеннолетия", result, isAdult);
     }
 }
